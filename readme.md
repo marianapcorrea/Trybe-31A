@@ -11,15 +11,21 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 1: Introdução - Unix, Shell e Git
 
 - [x] 1.1: _Unix & Shell_
+
     Introdução ao sistema Unix, shell e comandos comuns no terminal.
 - [x] 1.2: _Git - O que é e para que serve?_
+
     Introdução e instalação do git, funcionalidades, principais comandos, conceitos de branches, merge, commit, etc.
-- [ ] 1.2: _Git & GitHub - Entendendo os comandos_
+- [x] 1.2: _Git & GitHub - Entendendo os comandos_
+
+  Linkagem de repositório remoto e local, pull, push, merge, clone, etc.
 
 
 ##### Bloco 2: Introdução à HTML & CSS
 
-- [ ] 2.1: _HTML & CSS - Estruturas de página_
+- [x] 2.1: _HTML & CSS - Estruturas de página_
+  
+  Funcionamento da internet, Tags HTML
 - [ ] 2.2: _HTML & CSS - Primeiros passos em CSS_
 - [ ] 2.3: _HTML & CSS - Seletores e posicionamento_
 - [ ] 2.4: _HTML Semântico_
@@ -45,6 +51,25 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 5: HTML e CSS: Forms, Flexbox e Responsivo
 
+- [ ] 6.1: _HTML & CSS - Forms_;
+- [ ] 6.2: _Bibliotecas JavaScript e Frameworks CSS_;
+- [ ] 6.3: _CSS Flexbox - Parte 1_;
+- [ ] 6.4: _CSS Flexbox - Parte 2_;
+- [ ] 6.5: _CSS Responsivo - Mobile First_;
+- [ ] 6.6: _Projeto - Trybewarts_;
+
 ##### Bloco 6: Introdução à JavaScript ES6 e Testes Unitários
 
+- [ ] 6.1: _Fluxo de execuções e manipulações de objetos_;
+- [ ] 6.2: _Primeiros passos em Jest_;
+- [ ] 6.3: _Matchers e cobertura de código_;
+- [ ] 6.4: _Projeto - JavaScript Testes Unitários_;
+  
 ##### Bloco 7: Hight Order Functions do JavaScript ES6
+
+- [ ] 7.1: _Introdução - Higher Order Functions_;
+- [ ] 7.2: _Higher Order Functions - sort e map_;
+- [ ] 7.3: _Higher Order Functions - filter e reduce_;
+- [ ] 7.4: _JavaScript ES6 - spread operator, rest parameters e object destructuring_;
+- [ ] 7.5: _JavaScript ES6- Array destructuring, Default destructuring, Object property shorthand e default parameters_;
+- [ ] 7.6: _Projeto - Zoo functions_;
