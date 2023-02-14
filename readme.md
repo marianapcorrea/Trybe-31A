@@ -11,16 +11,20 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 1: Introdução - Unix, Shell e Git
 
 - [x] 1.1: _Unix & Shell_
+
     Introdução ao sistema Unix, shell e comandos comuns no terminal.
 - [x] 1.2: _Git - O que é e para que serve?_
+
     Introdução e instalação do git, funcionalidades, principais comandos, conceitos de branches, merge, commit, etc.
 - [x] 1.2: _Git & GitHub - Entendendo os comandos_
+
   Linkagem de repositório remoto e local, pull, push, merge, clone, etc.
 
 
 ##### Bloco 2: Introdução à HTML & CSS
 
 - [x] 2.1: _HTML & CSS - Estruturas de página_
+  
   Funcionamento da internet, Tags HTML
 - [ ] 2.2: _HTML & CSS - Primeiros passos em CSS_
 - [ ] 2.3: _HTML & CSS - Seletores e posicionamento_
