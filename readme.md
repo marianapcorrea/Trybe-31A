@@ -32,7 +32,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 2.3: _HTML & CSS - Seletores e posicionamento_
   
     Modelo Box Model, posicionamento de elementos, seletores, pseudo-seletores e agrupamento e combinação de seletores e pseudo-seletores.
-- [ ] 2.4: _HTML Semântico_
+- [x] 2.4: _HTML Semântico_
+
+    Uso de elementos HTML semânticos para aumentar a acessibilidade do site; Funcionamento de elementos de bloco e de linha.
 - [ ] 2.5: _Projeto - Lessons Learned_
 
 ##### Bloco 3: Introdução à JavaScript
