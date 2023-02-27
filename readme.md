@@ -35,11 +35,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 2.4: _HTML Semântico_
 
     Uso de elementos HTML semânticos para aumentar a acessibilidade do site; Funcionamento de elementos de bloco e de linha.
-- [ ] 2.5: _Projeto - Lessons Learned_
+- [x] 2.5: _Projeto - Lessons Learned_
 
 ##### Bloco 3: Introdução à JavaScript
 
-- [ ] 3.1: _JavaScript - Primeiros passos_
+- [x] 3.1: _JavaScript - Primeiros passos_
+    Variáveis,tipos primitivos, tipagem dinâmica, operadores matemáticos e lógicos, condicionais *if/else* e *swich/case*. 
 - [ ] 3.2: _JavaScript - Array e loop For_
 - [ ] 3.3: _JavaScript - Lógica de Programação e Algoritmos_
 - [ ] 3.4: _JavaScript - Objetos e funções_
