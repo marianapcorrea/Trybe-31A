@@ -74,3 +74,51 @@ if (angA + angB + angC !== 180 && angA > 0 && angB > 0 && angC > 0) {
 } else {
     console.log("Erro: insira um valor positivo");
 }
+
+/* 
+Utilize switch/case para escrever um código que receba o nome de uma peça de xadrez e retorne os movimentos que ela pode fazer.
+Como desafio, escreva um código para funcionar tanto se receber o nome de uma peça com letras maiúsculas quanto com letras minúsculas, sem aumentar a quantidade de condicionais.
+
+Como dica, você pode pesquisar uma função que faça uma string ficar com todas as letras minúsculas (lower case).
+
+Se a peça passada for inválida, o código deve retornar uma mensagem de erro.
+
+Exemplo: bishop (bispo) -> diagonals (diagonais)
+*/
+let peca = "Torre";
+let peca_lowerCase = peca.toLowerCase();
+
+switch (peca_lowerCase) {
+    case "peão":
+    case "peao":
+        console.log(
+            "Peão: move uma casa à frente. No primeiro movimento, pode mover-se duas casas de uma vez. Captura as peças que estejam uma casa à frente, na diagonal."
+        );
+        break;
+    case "torre":
+        console.log(
+            "Torre: move-se em linha reta, na forma de cruz (tanto na vertical quanto na horizontal) quantas casas desejar."
+        );
+        break;
+    case "cavalo":
+        console.log(
+            "Cavalo: Movimenta-se em 'L', sendo duas casas na horizontal e uma na vertical, ou duas na vertical e uma na horizontal, e assim por diante. Pode pular outras peças. "
+        );
+        break;
+    case "bispo":
+        console.log("Bispo: Move-se na diagonalm quantas casas desejar.");
+        break;
+    case "rainha":
+    case "dama":
+        console.log(
+            "Rainha/Dama: Movimenta-se em qualquer direção (vertical, horizontal e diagonal), quantas casas desejar."
+        );
+        break;
+    case "rei":
+        console.log(
+            "Rei: Movimenta-se em qualquer direção (vertical, horizontal e diagonal), apenas uma casa por vez."
+        );
+        break;
+    default:
+        console.log("Digite um nome de peça válido.");
+}
