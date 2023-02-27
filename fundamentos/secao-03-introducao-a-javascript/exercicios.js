@@ -170,3 +170,27 @@ if (a % 2 !== 0 || b % 2 !== 0 || c % 2 !== 0) {
 } else {
     console.log(false);
 }
+
+/* 
+Utilize if/else para escrever um código que se inicie com dois valores em duas variáveis diferentes: o custo de um produto e seu valor de venda. A partir dos valores, o código deve calcular o lucro (ou seja, o valor de venda menos o custo do ) da empresa ao vender mil produtos.produto
+Atente para o fato de que um imposto de 20% incide sobre o custo do produto.
+Seu código deve emitir uma mensagem de erro e encerrar caso algum dos valores de entrada seja menor que zero.
+O lucro de um produto é o resultado da subtração do valor de venda pelo custo e deve considerar que o imposto de 20% faz parte do valor de custo.
+
+valorCustoTotal = valorCusto + impostoSobreOCusto;
+lucro = valorVenda - valorCustoTotal (lucro de um produto);
+*/
+
+let valorCusto = 52;
+let valorVenda = 132;
+let impostoSobreOCusto = valorCusto * 0.2;
+
+if (valorCusto == 0 || valorVenda == 0) {
+    console.log("Valor inválido");
+} else {
+    let valorCustoTotal = valorCusto + impostoSobreOCusto;
+    let lucro = valorVenda - valorCustoTotal;
+
+    let lucroTotal = lucro * 1000;
+    console.log("R$" + lucroTotal.toFixed(2));
+}
