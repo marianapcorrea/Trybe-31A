@@ -2,7 +2,7 @@ console.log("It's alive!");
 
 let a = 15;
 let b = 9;
-let c = 21;
+let c = 22;
 let d = -25;
 
 /* 
@@ -149,4 +149,14 @@ if (porcentagem < 0 || porcentagem > 100) {
     console.log(" E");
 } else if (porcentagem < 50) {
     console.log("F)");
+}
+
+/* 
+Utilize if/else para escrever um código que defina três números em variáveis e retorne true se pelo menos uma das três for par. Caso contrário, o código deve retornar false.
+Bônus: use somente um if.
+*/
+if (a % 2 == 0 || b % 2 == 0 || c % 2 == 0) {
+    console.log(true);
+} else {
+    console.log(false);
 }
