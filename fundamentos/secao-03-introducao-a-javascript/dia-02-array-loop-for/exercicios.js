@@ -16,22 +16,29 @@ for (let number of numbers) {
 console.log(numbers_sum);
  */
 //Calcule e imprima a média aritmética dos valores contidos no array.
-let numbers_sum = 0;
+/* let numbers_sum = 0;
 let numbers_media;
 for (let number of numbers) {
     numbers_sum += number;
 }
 numbers_media = numbers_sum / numbers.length;
-/* console.log(numbers_media);
- */
+console.log(numbers_media); */
+
 //Com base no código que acabou de gerar, faça com que: caso o valor final seja maior que 20, imprima a mensagem “Valor maior que 20”; e, caso não seja maior que 20, imprima a mensagem “Valor menor ou igual a 20”.
-if (numbers_media > 20) {
+/* if (numbers_media > 20) {
     console.log("Valor maior que 20");
 } else {
     console.log("Valor menor ou igual a 20");
 }
-
+ */
 //Utilizando for, descubra o maior valor contido no array e imprima-o.
+let highestValue = 0;
+for (let i = 0; i <= numbers.length; i += 1) {
+    if (numbers[i] > highestValue) {
+        highestValue = numbers[i];
+    }
+}
+console.log("highestValue: " + highestValue);
 
 //Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “Nenhum valor ímpar encontrado”.
 
