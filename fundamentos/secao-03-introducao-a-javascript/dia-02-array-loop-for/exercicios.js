@@ -32,16 +32,26 @@ console.log(numbers_media); */
 }
  */
 //Utilizando for, descubra o maior valor contido no array e imprima-o.
-let highestValue = 0;
+/* let highestValue = 0;
 for (let i = 0; i <= numbers.length; i += 1) {
     if (numbers[i] > highestValue) {
         highestValue = numbers[i];
-    }
+    }   
 }
-console.log("highestValue: " + highestValue);
+console.log("highestValue: " + highestValue); */
 
 //Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “Nenhum valor ímpar encontrado”.
-
+let odd_sum = 0;
+for (let number of numbers) {
+    if (number % 2 !== 0) {
+        odd_sum += 1;
+    }
+}
+if (odd_sum === 0) {
+    console.log("Nenhum valor ímpar encontrado");
+} else {
+    console.log(odd_sum);
+}
 //Utilizando for, descubra o menor valor contido no array e imprima-o.
 
 //Utilizando for, crie um array que vá de 1 a 25 e imprima o resultado.
