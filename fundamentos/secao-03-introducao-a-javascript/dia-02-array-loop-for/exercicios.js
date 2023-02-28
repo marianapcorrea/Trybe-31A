@@ -53,14 +53,18 @@ if (odd_sum === 0) {
     console.log(odd_sum);
 } */
 //Utilizando for, descubra o menor valor contido no array e imprima-o.
-let lowerNumber = numbers[0];
+/* let lowerNumber = numbers[0];
 for (let i = 0; i < numbers.length; i += 1) {
     if (numbers[i] < lowerNumber) {
         lowerNumber = numbers[i];
     }
 }
 console.log(lowerNumber);
-
+ */
 //Utilizando for, crie um array que vá de 1 a 25 e imprima o resultado.
-
+let new_array = [];
+for (let i = 1; i <= 25; i += 1) {
+    new_array.push(i);
+}
+console.log(new_array);
 //Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2.
