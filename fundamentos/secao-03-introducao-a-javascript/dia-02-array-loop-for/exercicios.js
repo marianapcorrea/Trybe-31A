@@ -4,10 +4,17 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 Lidando com arrays
 
 Percorra o array imprimindo todos os valores contidos nele com a função console.log().*/
-for (let number of numbers) {
+/* for (let number of numbers) {
     console.log(number);
+} */
+
+//Some todos os valores contidos no array e imprima o resultado.
+let numbers_sum = 0;
+for (let number of numbers) {
+    numbers_sum += number;
 }
-/*Some todos os valores contidos no array e imprima o resultado.*/
+console.log(numbers_sum);
+
 //Calcule e imprima a média aritmética dos valores contidos no array.
 
 //A média aritmética é o resultado da soma de todos os elementos dividido pelo número total de elementos.
