@@ -79,13 +79,29 @@ console.log(dividedByTwo); */
 
 /* Lógica de programação e algoritmos
 Crie um algoritmo que imprima na tela o fatorial de 10. */
-let number = 4;
+/* let number = 4;
 let fatorial = 1;
 for (i = number; i > 0; i -= 1) {
     fatorial *= i;
 }
 console.log(fatorial);
-
+ */
 //Utilize a estrutura de repetição for para desenvolver um algoritmo que seja capaz de inverter uma palavra, como a palavra “banana” para “ananab”. Utilize a string abaixo como exemplo. Depois, troque-a por outras para verificar se seu algoritmo está funcionando corretamente.
 
 //Utilize a estrutura de repetição for para escrever dois algoritmos: um que imprima no console a maior palavra desse array e outro que imprima a menor. Considere o número de caracteres de cada palavra.
+let array = ["java", "javascript", "python", "html", "css"];
+let biggestWord = array[0];
+let smallestWord = array[0];
+
+for (let word of array) {
+    if (word.length > biggestWord.length) {
+        biggestWord = word;
+    }
+}
+for (let word of array) {
+    if (word.length < smallestWord.length) {
+        smallestWord = word;
+    }
+}
+console.log(biggestWord);
+console.log(smallestWord);
