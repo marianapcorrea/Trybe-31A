@@ -41,7 +41,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 3.1: _JavaScript - Primeiros passos_
     Variáveis,tipos primitivos, tipagem dinâmica, operadores matemáticos e lógicos, condicionais *if/else* e *swich/case*. 
-- [ ] 3.2: _JavaScript - Array e loop For_
+- [x] 3.2: _JavaScript - Array e loop For_
+  Arrays, loop *for*, loop *for/of*, loop *while*, algorítimos.
 - [ ] 3.3: _JavaScript - Lógica de Programação e Algoritmos_
 - [ ] 3.4: _JavaScript - Objetos e funções_
 - [ ] 3.5: _JavaScript ES6 - let, const, arrow functions e template literals_
