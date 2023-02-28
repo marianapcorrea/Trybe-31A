@@ -68,3 +68,8 @@ for (let i = 1; i <= 25; i += 1) {
 }
 console.log(new_array);
 //Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2.
+let dividedByTwo = [];
+for (let number of new_array) {
+    dividedByTwo.push(number / 2);
+}
+console.log(dividedByTwo);
