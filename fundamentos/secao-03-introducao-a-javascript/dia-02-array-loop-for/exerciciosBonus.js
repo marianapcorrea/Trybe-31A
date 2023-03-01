@@ -14,3 +14,18 @@ for (i = 0; i < numbers.length; i += 1) {
     }
 }
 console.log("Crescente: " + numbers);
+
+//Ordene o array numbers em ordem decrescente e imprima seus valores.
+
+for (i = 0; i < numbers.length; i += 1) {
+    for (j = 0; j < numbers.length - i - 1; j += 1) {
+        if (numbers[j] < numbers[j + 1]) {
+            let position = numbers[j];
+            numbers[j] = numbers[j + 1];
+            numbers[j + 1] = position;
+        }
+    }
+}
+console.log("Decrescente: " + numbers);
+
+//
