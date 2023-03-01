@@ -62,16 +62,40 @@ let unit = "*";
 let line = "";
 let square = "";
 
-for (let squareWidth = 0; squareWidth < n; squareWidth += 1) {
+/* for (let squareWidth = 0; squareWidth < n; squareWidth += 1) {
     line = line + unit;
 }
 for (let squareHeight = 0; squareHeight < n; squareHeight += 1) {
     square = square + line + " \n";
 }
-console.log(square);
-let triangle = "";
+console.log(square); */
 //Faça o mesmo algoritmo que antes, mas de modo que imprima um triângulo retângulo com 5 asteriscos de base. Por exemplo:
+
+/* let triangle = "";
 for (let i = 0; i < n; i += 1) {
     triangle = triangle + unit;
     console.log(triangle);
-}
+} */
+
+//Agora, inverta o lado do triângulo. Por exemplo:
+
+//Depois, faça uma pirâmide com n asteriscos de base. Por exemplo:
+/* n = 5
+
+    *
+  ***
+*****
+*/
+
+//Faça uma pirâmide com n asteriscos de base que seja vazia no meio. Para isso, assuma que o valor de n será sempre ímpar. Por exemplo:
+/* 
+n = 7
+
+     *   
+    * *  
+   *   * 
+*******
+*/
+
+//Faça um algoritmo que indique se um número definido em uma variável é primo ou não.
+//Dica: você vai precisar fazer um loop que vá de 0 ao número definido. Além disso, vai precisar fazer uma checagem a cada iteração e armazenar os resultados em algum lugar.
