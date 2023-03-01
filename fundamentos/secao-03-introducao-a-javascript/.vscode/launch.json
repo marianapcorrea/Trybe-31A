@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/dia-02-array-loop-for/exercicios.js"
+            "program": "${workspaceFolder}/dia-02-array-loop-for/exerciciosBonus.js"
         }
     ]
 }
