@@ -44,8 +44,9 @@ console.log("Decrescente: " + numbers);
  */
 //Agora, crie um novo array a partir do array numbers, sem perdê-lo. Cada valor do novo array deverá ser igual ao valor correspondente no array numbers multiplicado pelo seguinte. Por exemplo: o primeiro valor do novo array deverá ser 45, pois é a multiplicação de 5 (primeiro valor) e 9 (valor seguinte). Já o segundo valor do novo array deverá ser 27, pois é a multiplicação de 9 (segundo valor) e 3 (valor seguinte), e assim por diante. Caso não haja valor seguinte, a multiplicação deverá ser feita por 2. Faça isso utilizando o for e o método push. O resultado deve ser o array abaixo:
 // [45, 27, 57, 1330, 560, 800, 200, 70, 945, 54]
+
 let numbersAfter = [];
-for (i = 0; i < numbers.length; i += 1) {
+/* for (i = 0; i < numbers.length; i += 1) {
     if (i < numbers.length - 1) {
         numbersAfter.push(numbers[i] * numbers[i + 1]);
     } else {
@@ -53,4 +54,18 @@ for (i = 0; i < numbers.length; i += 1) {
     }
 }
 
-console.log(numbersAfter);
+console.log(numbersAfter); */
+
+//Escreva um algoritmo que, dado um valor n positivo, ou seja, n > 1, imprima na tela um quadrado feito de asteriscos de tamanho n
+let n = 5;
+let unit = "*";
+let line = "";
+let square = "";
+
+for (let squareWidth = 0; squareWidth < n; squareWidth += 1) {
+    line = line + unit;
+}
+for (let squareHeight = 0; squareHeight < n; squareHeight += 1) {
+    square = square + line + " \n";
+}
+console.log(square);
