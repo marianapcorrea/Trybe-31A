@@ -38,8 +38,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 3: Introdução à JavaScript
 
 - [x] 3.1: _JavaScript - Primeiros passos_
+  
     Variáveis,tipos primitivos, tipagem dinâmica, operadores matemáticos e lógicos, condicionais *if/else* e *swich/case*. 
 - [x] 3.2: _JavaScript - Array e loop For_
+  
   Arrays, loop *for*, loop *for/of*, loop *while*, algorítimos.
 - [ ] 3.3: _JavaScript - Lógica de Programação e Algoritmos_
 - [ ] 3.4: _JavaScript - Objetos e funções_
@@ -57,19 +59,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 5: HTML e CSS: Forms, Flexbox e Responsivo
 
-- [ ] 6.1: _HTML & CSS - Forms_;
-- [ ] 6.2: _Bibliotecas JavaScript e Frameworks CSS_;
-- [ ] 6.3: _CSS Flexbox - Parte 1_;
-- [ ] 6.4: _CSS Flexbox - Parte 2_;
-- [ ] 6.5: _CSS Responsivo - Mobile First_;
-- [ ] 6.6: _Projeto - Trybewarts_;
-
-- [ ] 6.1: _HTML & CSS - Forms_;
-- [ ] 6.2: _Bibliotecas JavaScript e Frameworks CSS_;
-- [ ] 6.3: _CSS Flexbox - Parte 1_;
-- [ ] 6.4: _CSS Flexbox - Parte 2_;
-- [ ] 6.5: _CSS Responsivo - Mobile First_;
-- [ ] 6.6: _Projeto - Trybewarts_;
+- [ ] 5.1: _HTML & CSS - Forms_;
+- [ ] 5.2: _Bibliotecas JavaScript e Frameworks CSS_;
+- [ ] 5.3: _CSS Flexbox - Parte 1_;
+- [ ] 5.4: _CSS Flexbox - Parte 2_;
+- [ ] 5.5: _CSS Responsivo - Mobile First_;
+- [ ] 5.6: _Projeto - Trybewarts_;
 
 ##### Bloco 6: Introdução à JavaScript ES6 e Testes Unitários
 
@@ -78,20 +73,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 6.3: _Matchers e cobertura de código_;
 - [ ] 6.4: _Projeto - JavaScript Testes Unitários_;
   
-
-- [ ] 6.1: _Fluxo de execuções e manipulações de objetos_;
-- [ ] 6.2: _Primeiros passos em Jest_;
-- [ ] 6.3: _Matchers e cobertura de código_;
-- [ ] 6.4: _Projeto - JavaScript Testes Unitários_;
   
 ##### Bloco 7: Hight Order Functions do JavaScript ES6
-
-- [ ] 7.1: _Introdução - Higher Order Functions_;
-- [ ] 7.2: _Higher Order Functions - sort e map_;
-- [ ] 7.3: _Higher Order Functions - filter e reduce_;
-- [ ] 7.4: _JavaScript ES6 - spread operator, rest parameters e object destructuring_;
-- [ ] 7.5: _JavaScript ES6- Array destructuring, Default destructuring, Object property shorthand e default parameters_;
-- [ ] 7.6: _Projeto - Zoo functions_;
 
 - [ ] 7.1: _Introdução - Higher Order Functions_;
 - [ ] 7.2: _Higher Order Functions - sort e map_;
