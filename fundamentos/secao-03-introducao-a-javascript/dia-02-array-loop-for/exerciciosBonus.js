@@ -69,3 +69,9 @@ for (let squareHeight = 0; squareHeight < n; squareHeight += 1) {
     square = square + line + " \n";
 }
 console.log(square);
+let triangle = "";
+//Faça o mesmo algoritmo que antes, mas de modo que imprima um triângulo retângulo com 5 asteriscos de base. Por exemplo:
+for (let i = 0; i < n; i += 1) {
+    triangle = triangle + unit;
+    console.log(triangle);
+}
