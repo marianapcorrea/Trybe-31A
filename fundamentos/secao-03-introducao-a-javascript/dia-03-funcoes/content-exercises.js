@@ -30,17 +30,36 @@ division(balance, value);
  */
 
 //Faça um programa para adicionar clientes ao array de clientes do TrybeBank. Certifique-se de que a função deve receber um parâmetro do tipo string e imprimir uma mensagem de erro caso o parâmetro não seja do tipo string.
-let clientesTrybeBank = ["Ada", "John", "Gus"];
+let clientsTrybeBank = ["Ada", "John", "Gus"];
 
-function newClient(client) {
+/* function newClient(client) {
     if (typeof client === "string") {
-        clientesTrybeBank.push(client);
-        return clientesTrybeBank;
+        clientsTrybeBank.push(client);
+        return clientsTrybeBank;
     } else {
-        return "Type Error: Yous should only use the string type.";
+        return "Type Error: You should only use the 'string' type.";
     }
 }
 console.log(newClient("Beta"));
-console.log(newClient(1));
+console.log(newClient(1)); */
 
 //Agora iremos escrever um programa que irá excluir um(a) cliente já existente do array de clientes do TrybeBank. Certifique-se de que a função deve receber um parâmetro do tipo string e imprimir uma mensagem de erro, caso o parâmetro não seja do tipo string e caso o(a) cliente não exista dentro do array.
+function removeClient(client) {
+    if (typeof client === "string") {
+        for (let i = 0; i < clientsTrybeBank.length; i += 1) {
+            if (clientsTrybeBank[i] === client) {
+                clientsTrybeBank.splice(i, 1);
+                return clientsTrybeBank;
+            } else {
+                return "Client not found";
+            }
+        }
+    } else {
+        return "Wrong type of input.";
+    }
+}
+
+console.log(removeClient("Ada"));
+console.log(removeClient("João"));
+console.log(removeClient(true));
+console.log(clientsTrybeBank);
