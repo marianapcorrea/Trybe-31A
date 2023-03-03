@@ -68,8 +68,15 @@ leitor.livrosFavoritos.push({
 
 console.log(`Julia tem ${leitor.livrosFavoritos.length} livros favoritos`); */
 
-//Pedido de clientes
+/* //Pedido de clientes
 //Imagine que você seja responsável por cuidar do sistema de entrega de um restaurante e que precise enviar mensagens com as informações da compra. Para isso, use o seguinte código:
+
+//Complete a função customerInfo() para que seu retorno seja similar a 'Olá, Ana Silveira, entrega para: Rafael Andrade, Telefone: 11-98763-1416, R. Rua das Flores, Nº: 389, AP: 701'.
+
+//Complete a função orderModifier() para que seu retorno seja similar a 'Olá, Luiz Silva, o valor total de seu pedido de marguerita, pepperoni e Coca-Cola Zero é R$ 50,00.';
+//              Modifique o nome da pessoa compradora para Luiz Silva;
+//              Modifique o valor total da compra para R$ 50,00.
+
 let order = {
     name: "Rafael Andrade",
     phoneNumber: "11-98763-1416",
@@ -123,8 +130,147 @@ function orderModifier(order) {
 }
 
 orderModifier(order);
-//Complete a função customerInfo() para que seu retorno seja similar a 'Olá, Ana Silveira, entrega para: Rafael Andrade, Telefone: 11-98763-1416, R. Rua das Flores, Nº: 389, AP: 701'.
+ */
+/* //Organizando lições
 
-//Complete a função orderModifier() para que seu retorno seja similar a 'Olá, Luiz Silva, o valor total de seu pedido de marguerita, pepperoni e Coca-Cola Zero é R$ 50,00.';
-//              Modifique o nome da pessoa compradora para Luiz Silva;
-//              Modifique o valor total da compra para R$ 50,00.
+let lesson1 = {
+    materia: "Matemática",
+    numeroEstudantes: 20,
+    professor: "Maria Clara",
+    turno: "manhã",
+};
+
+let lesson2 = {
+    materia: "História",
+    numeroEstudantes: 20,
+    professor: "Carlos",
+};
+
+let lesson3 = {
+    materia: "Matemática",
+    numeroEstudantes: 10,
+    professor: "Maria Clara",
+    turno: "noite",
+};
+
+//Crie uma função para adicionar o turno da noite na lesson2. Essa função deve ter três parâmetros: o objeto a ser modificado, a chave a ser adicionada e o valor dela.
+lesson2.turno = "noite";
+console.log(lesson2);
+
+//Crie uma função para listar as keys de um objeto. Essa função deve receber um objeto como parâmetro.
+function listKeys(objc) {
+    for (key in objc) {
+        console.log(key);
+    }
+}
+
+listKeys(lesson1);
+
+//Crie uma função para mostrar o tamanho de um objeto. Essa função deve receber um objeto como parâmetro.
+function lenghtOfObj(obj) {
+    console.log(Object.keys(obj).length);
+}
+lenghtOfObj(lesson3);
+
+//Crie uma função para listar os valores de um objeto. Essa função deve receber um objeto como parâmetro.
+function listValue(obj) {
+    for (value in obj) {
+    }
+    console.log(Object.values(obj));
+}
+listValue(lesson1);
+
+//Crie um objeto de nome allLessons, que deve agrupar todas as aulas por meio do Object.assign. Cada chave desse novo objeto será uma aula, portanto essas chaves serão nomeadas lesson1, lesson2 e lesson3. Executar o comando console.log(allLessons)
+let allLessons = {};
+
+Object.assign(allLessons, { lesson1 }, { lesson2 }, { lesson3 });
+
+console.log(allLessons);
+
+//Com base no objeto elaborado no tópico anterior, crie uma função que retorne o número total de estudantes em todas as aulas.
+function totalStudents(myObjc) {
+    let occorrences = 0;
+    let objKeys = Object.keys(myObjc);
+    for (key in objKeys) {
+        occorrences += myObjc[objKeys[key]].numeroEstudantes;
+    }
+
+    console.log(occorrences);
+}
+
+totalStudents(allLessons);
+
+//Crie uma função que obtenha o valor da chave de acordo com sua posição no objeto.
+function keyValue(obj, key) {
+    console.log(Object.values(obj)[key]);
+}
+
+keyValue(lesson1, 0);
+
+//Crie uma função que verifique se o par chave/valor existe na função. Essa função deve possuir três parâmetros:o objeto, o nome da chave e o valor dela. Por exemplo:
+function verifyPropertie(obj, key, value) {
+    let input = Object.entries(obj);
+    let status = false;
+    for (let keys in input) {
+        if (input[keys][0] === key && input[keys][1] === value) {
+            status = true;
+        } else {
+            status = false;
+        }
+    }
+    return status;
+}
+console.log(verifyPropertie(lesson3, "turno", "noite"));
+console.log(verifyPropertie(lesson3, "materia", "Maria Clara"));
+ */
+
+//Exercícios – Bônus
+/* 
+Exercício 1
+(Bônus) Faça um programa que receba uma string em algarismos romanos e retorne o número que a string representa.
+
+Atenção! Esse exercício já apareceu no processo seletivo de uma grande multinacional!
+
+Dicas:
+
+    Uma string é um array de caracteres, então cada elemento do array é uma letra.
+    O valor de cada numeral romano é:
+    | I   | 1    |
+| --- | ---- |
+| IV  | 4    |
+| V   | 5    |
+| IX  | 9    |
+| X   | 10   |
+| XL  | 40   |
+| L   | 50   |
+| XC  | 90   |
+| C   | 100  |
+| CD  | 400  |
+| D   | 500  |
+| CM  | 900  |
+| M   | 1000 |
+*/
+let dictionary = {
+    I: 1,
+    V: 5,
+    X: 10,
+    L: 50,
+    C: 100,
+    D: 500,
+    M: 1000,
+};
+
+function convertToNumber(string) {
+    string = string.toUpperCase().split("");
+    let number = 0;
+    for (let i of string) {
+        if (string[i] > string[i + 1]) {
+            number = +Object.values(string)[i];
+        } else {
+            number = -Object.values(string)[i];
+        }
+    }
+    return number;
+}
+
+console.log(convertToNumber("XIV"));
