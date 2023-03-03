@@ -99,3 +99,21 @@ n = 7
 
 //Faça um algoritmo que indique se um número definido em uma variável é primo ou não.
 //Dica: você vai precisar fazer um loop que vá de 0 ao número definido. Além disso, vai precisar fazer uma checagem a cada iteração e armazenar os resultados em algum lugar.
+/* let sum = 0;
+simpleArraySum = [1, 2, 3, 4, 10, 11];
+function simpleArraySum(ar) {
+    for (let i = 0; i < simpleArraySum.length; i += 1) {
+        sum += simpleArraySum[i];
+        return console.log(sum);
+    }
+} */
+
+let numbers1 = [5, 9, 3];
+let sum = 0;
+function simpleArraySum(numbers) {
+    for (let number of numbers) {
+        sum += number;
+    }
+    console.log(sum);
+}
+simpleArraySum(numbers1);
