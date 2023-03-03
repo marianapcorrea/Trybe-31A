@@ -58,8 +58,37 @@ let sobrenome = "Pires";
 console.log(nomeCompleto(nome, sobrenome)); */
 
 //🚀 Altere a expressão if/else utilizando ternary operator.
-let speed = 90;
+/* let speed = 90;
 const speedCar = (speed) =>
     speed >= 120 ? `Você ultrapassou o limite de velocidade` : `Você está na velocidade permitida`;
 
-console.log(speedCar(speed));
+console.log(speedCar(speed)); */
+
+// 1 - Crie a função ligarDesligar, que ligue e desligue um motor de um carro.
+
+let ligarDesligar = (status) => {
+    let changedStatus = status !== "ligado" ? "ligado" : "desligado";
+    console.log(`O motor está ${changedStatus}`);
+    return changedStatus;
+};
+// 2 - Crie a função circleArea, que calcule a área de um círculo.
+let circleArea = (r) => {
+    if (typeof r !== "number") {
+        return "O parâmetro radius deve ser um número";
+    }
+    let pi = 3.14;
+    let area = pi * r * r;
+    return `Essa é a área do círculo: ${area}`;
+};
+
+// 3 - Crie a função longestWord, que receba uma frase como parâmetro e retorne a maior palavra da frase.
+let longestWord = (phrase) => {
+    let phraseArray = phrase.split(" ");
+    let biggestWord = "";
+    for (let word in phraseArray) {
+        if (biggestWord.length < phraseArray[word].length) {
+            biggestWord = phraseArray[word];
+        }
+    }
+    return biggestWord;
+};
