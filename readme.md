@@ -45,8 +45,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 3.2: _JavaScript - Array e loop For_
   
   Arrays, loop *for*, loop *for/of*, loop *while*, algorítimos.
-- [ ] 3.3: _JavaScript - Lógica de Programação e Algoritmos_
-- [ ] 3.4: _JavaScript - Objetos e funções_
+- [x] 3.3: _JavaScript - Funções_
+  
+  Funções, parâmetros, complexidade de funções
+- [x] 3.4: _JavaScript - Objetos_
+  
+  Objetos, Métodos de Objetos, loop for/in
 - [ ] 3.5: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [ ] 3.6: _Projeto - Playground Functions_
 
