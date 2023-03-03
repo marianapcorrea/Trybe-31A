@@ -52,6 +52,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
   
   Objetos, Métodos de Objetos, loop for/in
 - [ ] 3.5: _JavaScript ES6 - let, const, arrow functions e template literals_
+
+Tipos de variáveis, template literals, arrow functions e operador ternário
 - [ ] 3.6: _Projeto - Playground Functions_
 
 ##### Bloco 4: JavaScript: DOM, Eventos e Web Storage
