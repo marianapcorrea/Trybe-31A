@@ -26,7 +26,7 @@ console.log(
 //FOR/IN
 
 //Com base no objeto a seguir, utilize for/in e imprima no console a mensagem 'Olá, xxxxx' para cada nome, substituindo o xxxxx pelo nome em questão.
-let names = {
+/* let names = {
     person1: "João",
     person2: "Maria",
     person3: "Jorge",
@@ -44,3 +44,16 @@ let car = {
 for (keys in car) {
     console.log(keys, car[keys]);
 }
+ */
+
+//Adicione suas informações ao objeto student = {}, como nome, e-mail, telefone, GitHub e LinkedIn, usando os métodos abordados no conteúdo.
+let student = {};
+function addProperty(object, key, value) {
+    object[key] = value;
+}
+addProperty(student, "name", "Mariana Corrêa");
+addProperty(student, "email", "meuemails@gmail.com");
+addProperty(student, "GitHub", "https://github.com/marianapcorrea");
+addProperty(student, "LinkedIn", "https://www.linkedin.com/in/marianapcorrea/");
+
+console.log(student);
