@@ -97,11 +97,30 @@ for (let n of numberList) {
 }
 rightContent.appendChild(uList);
 //Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.    
-for (let i = 0; i < 4; i+=1){
+for (let i = 0; i < 3; i+=1){
     const subTitle = document.createElement("h3")
     subTitle.innerText= "H3"
     main.appendChild(subTitle)
 }
+//Adicione a classe title na tag h1 criada;
+title.classList = "title"
+//Adicione a classe description nas 3 tags h3 criadas;
+const subtitleClass = document.querySelectorAll("h3")
+for (let i = 0; i < subtitleClass.length; i+=1) {
+    subtitleClass[i].classList = "description"
+}
+//Remova a section criada no passo 5 (aquele que possui a classe left-content). Utilize a função .removeChild();
+main.removeChild(leftContent)
+//Centralize a section criada no passo 6 (aquele que possui a classe right-content).
+//De olho na dica 👀:: Para centralizar a section, basta configurar o margin-right: auto da section;
+rightContent.style.marginRight="auto"
+//Troque a cor de fundo do elemento pai da section criada no passo 3 (aquela que possui a classe center-content) para a cor verde;
+centerContent.style.backgroundColor="green"
+//Remova os dois últimos elementos (nove e dez) da lista criada no passo 8
+const elements =  document.querySelectorAll("li")
+const ul = document.querySelector("ul")
+ul.removeChild(elements[elements.length-1])
+ul.removeChild(elements[elements.length-2])
 </script>
   </body>
 </html>
