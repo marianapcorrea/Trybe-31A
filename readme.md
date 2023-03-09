@@ -11,55 +11,31 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 1: Introdução - Unix, Shell e Git
 
 - [x] 1.1: _Unix & Shell_
-  
-    Introdução ao sistema Unix, shell e comandos comuns no terminal.
 - [x] 1.2: _Git - O que é e para que serve?_
-    
-    Introdução e instalação do git, funcionalidades, principais comandos, conceitos de branches, merge, commit, etc.
 - [x] 1.2: _Git & GitHub - Entendendo os comandos_
-
-  Linkagem de repositório remoto e local, pull, push, merge, clone, etc.
 
 
 ##### Bloco 2: Introdução à HTML & CSS
 
 - [x] 2.1: _HTML & CSS - Estruturas de página_
-  
-  Funcionamento da internet, Tags HTML
 - [x] 2.2: _HTML & CSS - Primeiros passos em CSS_
-
-    Introdução ao CSS, seletores, CSS interno e externo
 - [x] 2.3: _HTML & CSS - Seletores e posicionamento_
-  
-    Modelo Box Model, posicionamento de elementos, seletores, pseudo-seletores e agrupamento e combinação de seletores e pseudo-seletores.
 - [x] 2.4: _HTML Semântico_
-
-    Uso de elementos HTML semânticos para aumentar a acessibilidade do site; Funcionamento de elementos de bloco e de linha.
 - [x] 2.5: _Projeto - Lessons Learned_
 
 ##### Bloco 3: Introdução à JavaScript
 
 - [x] 3.1: _JavaScript - Primeiros passos_
-  
-    Variáveis,tipos primitivos, tipagem dinâmica, operadores matemáticos e lógicos, condicionais *if/else* e *swich/case*. 
 - [x] 3.2: _JavaScript - Array e loop For_
-  
-  Arrays, loop *for*, loop *for/of*, loop *while*, algorítimos.
 - [x] 3.3: _JavaScript - Funções_
-  
-  Funções, parâmetros, complexidade de funções
 - [x] 3.4: _JavaScript - Objetos_
-  
-  Objetos, Métodos de Objetos, loop for/in
-- [ ] 3.5: _JavaScript ES6 - let, const, arrow functions e template literals_
-
-Tipos de variáveis, template literals, arrow functions e operador ternário
-- [ ] 3.6: _Projeto - Playground Functions_
+- [x] 3.5: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [x] 3.6: _Projeto - Playground Functions_
 
 ##### Bloco 4: JavaScript: DOM, Eventos e Web Storage
 
-- [ ] 4.1: _JavaScript - DOM e seletores_
-- [ ] 4.2: _JavaScript - Trabalhando com elementos_
+- [x] 4.1: _JavaScript - DOM e seletores_
+- [x] 4.2: _JavaScript - Trabalhando com elementos_
 - [ ] 4.3: _JavaScript - Eventos_
 - [ ] 4.4: _JavaScript - Web Storage_
 - [ ] 4.5: _Projeto - Arte com Pixels_
