@@ -68,3 +68,8 @@ body {
   .tech {
     transform: translateY(-20px);
   }
+
+  .hover {
+    color: #2fc18c;
+    cursor: pointer;
+  }
