@@ -31,4 +31,5 @@ body {
 }
 .paragraph {
   display: flex;
+  text-indent: 25px
 }
