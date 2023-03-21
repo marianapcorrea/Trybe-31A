@@ -92,5 +92,7 @@ footer h3 {
 }
 
 @media (min-width: 768px) {
-
+body {
+  margin: 1rem 3rem;
+}
 }
