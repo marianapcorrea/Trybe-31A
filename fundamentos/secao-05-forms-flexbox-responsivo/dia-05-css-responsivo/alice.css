@@ -1,0 +1,92 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* 
+Utilizando a abordagem mobile first e media queries, crie três versões de layout diferentes para essa página. Cada layout deve corresponder a um tamanho diferente de página (pequeno, médio e grande). Faça pelo menos um commit para cada layout;
+
+Para fazer isso de forma adequada, você deve prestar atenção no conteúdo da página e pensar em como mostrá-lo em cada um dos tamanhos de tela:
+
+Onde a lista de capítulos deve estar posicionada?
+
+Como a história deve ser mostrada?
+
+Como o cabeçalho deve ser posicionado?
+
+O que fazer com as informações do autor em cada tamanho de tela?
+
+Talvez você precise alterar o HTML um pouco, adicionando elementos para facilitar a estilização, ou talvez mudando um bloco de lugar dentro da página.
+*/
+
+body {
+  margin: 2rem ;
+  background-color: #ebe5e5;
+}
+
+header {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+
+header ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+li{
+  list-style: none;
+}
+
+header ul li{
+  margin-left: 1.5rem;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+main {
+  font-color: #1b1616;
+  line-height: 1.5rem;
+}
+
+aside {
+  margin-top: 2rem;
+}
+
+aside li {
+  color: #211f1f;
+}
+
+.aside-two {
+  font-family: monospace;
+}
+
+.main-content {
+  text-indent:1.2rem;
+  font-size: 1.2rem;
+  margin: 3rem 0;
+}
+
+.main-content h1 {
+  line-height: 2.5rem;
+  font-size: 1.75rem;
+}
+
+footer {
+  margin-top:3rem;
+  font-size: .75rem;
+  color: #211f1f;
+  font-family: monospace;
+}
+
+footer h3 {
+  text-align: center;
+}
