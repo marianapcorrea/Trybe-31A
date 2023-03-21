@@ -49,11 +49,11 @@ header ul li{
 
 header h1 {
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 main {
-  font-color: #1b1616;
+  color: #1b1616;
   line-height: 1.5rem;
 }
 
@@ -89,4 +89,8 @@ footer {
 
 footer h3 {
   text-align: center;
+}
+
+@media (min-width: 768px) {
+
 }
