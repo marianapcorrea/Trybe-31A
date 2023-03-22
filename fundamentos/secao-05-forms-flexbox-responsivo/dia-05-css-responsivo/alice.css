@@ -114,3 +114,41 @@ footer h3 {
     flex-grow: 1;
   }
 }
+
+@media screen and (min-width: 992px) {
+  body {
+    margin: 1rem  3rem 1rem 0.5rem;
+  }
+
+  main {
+    display: flex;
+  }
+
+  li {
+    font-size: 1rem
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-width: 25%;
+    margin: 0 2rem 0 0.2rem; 
+  }
+  
+  footer {
+    display: flex;
+    justify-content:space-between;
+    margin: 0 2rem;
+    align-items:center;
+  }
+
+  footer h3 {
+    margin-right: 5rem
+  }
+}
