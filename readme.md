@@ -52,7 +52,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 6: Introdução à JavaScript ES6 e Testes Unitários
 
 - [x] 6.1: _Fluxo de execuções e manipulações de objetos_;
-- [ ] 6.2: _Primeiros passos em Jest_;
+- [x] 6.2: _Primeiros passos em Jest_;
 - [ ] 6.3: _Matchers e cobertura de código_;
 - [ ] 6.4: _Projeto - JavaScript Testes Unitários_;
   
