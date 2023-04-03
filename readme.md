@@ -38,7 +38,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 4.3: _JavaScript - Eventos_
 - [x] 4.4: _JavaScript - Web Storage_
 - [x] 4.5: _Projeto - Arte com Pixels_
-- [ ] 4.6: _Projetos Bônus_
+- [x] 4.6: _Projetos Bônus_
 
 ##### Bloco 5: HTML e CSS: Forms, Flexbox e Responsivo
 
@@ -53,12 +53,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 6.1: _Fluxo de execuções e manipulações de objetos_;
 - [x] 6.2: _Primeiros passos em Jest_;
-- [ ] 6.3: _Matchers e cobertura de código_;
-- [ ] 6.4: _Projeto - JavaScript Testes Unitários_;
+- [x] 6.3: _Matchers e cobertura de código_;
+- [x] 6.4: _Projeto - JavaScript Testes Unitários_;
   
 ##### Bloco 7: Hight Order Functions do JavaScript ES6
 
-- [ ] 7.1: _Introdução - Higher Order Functions_;
+- [x] 7.1: _Introdução - Higher Order Functions_;
 - [ ] 7.2: _Higher Order Functions - sort e map_;
 - [ ] 7.3: _Higher Order Functions - filter e reduce_;
 - [ ] 7.4: _JavaScript ES6 - spread operator, rest parameters e object destructuring_;
