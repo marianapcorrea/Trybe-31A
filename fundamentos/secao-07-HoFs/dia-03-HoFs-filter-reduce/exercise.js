@@ -68,15 +68,13 @@ const countries = [
 
 // 1 - Calcule a quantidade total da população de todos os países.
 // const expectedResult = 120797034;
-const getPopulation = () => {
- // retorne o seu código aqui
-}
+const getPopulation = (array) => array.reduce((acc, { population }) =>  acc + population,0)
+// console.log(getPopulation(countries));
 
 // 2 - Calcule a área total de todos os países.
 // const expectedResult = 4311757;
-const getTotalArea = () => {
-// retorne seu código aqui
-}
+const getTotalArea = (array) => array.reduce((acc, { area }) =>  acc + area,0)
+// console.log(getTotalArea(countries));
 
 //🚀 3 - Encontre o país com o maior nome.
 // const expectedResult = {
@@ -87,9 +85,9 @@ const getTotalArea = () => {
   //   population: 55197,
   //   area: 199
 // }
-const longestName = () => {
-  // retorne seu código aqui
-}
+const longestName = (array) => array.reduce((acc, item)=> acc.name.length > item.name.length ? acc : item)
+
+
 
 // 🚀 4 - Retorne a quantidade de vezes que a letra a maiúscula ou minúscula aparece no array de nomes.
 const names = [
