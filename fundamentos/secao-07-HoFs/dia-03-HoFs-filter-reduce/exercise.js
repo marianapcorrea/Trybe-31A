@@ -87,6 +87,7 @@ const getTotalArea = (array) => array.reduce((acc, { area }) =>  acc + area,0)
 // }
 const longestName = (array) => array.reduce((acc, item)=> acc.name.length > item.name.length ? acc : item)
 
+// console.log(longestName(countries));
 
 
 // 🚀 4 - Retorne a quantidade de vezes que a letra a maiúscula ou minúscula aparece no array de nomes.
@@ -96,10 +97,10 @@ const names = [
   'Abeladerco', 'Adieidy', 'Alarucha',
 ];
 // const expectedResult = 20;
-const countA = () => {
-  // retorne seu código aqui
-}
+const countA = (array) => array.reduce((acc, item) => acc + item.match(/a+/gi), [] ).split(',').join('').length;
 
+// console.log(countA(names));
+ 
 // 🚀 5 - Crie um array de objetos e calcule a média de notas. Utilize as constantes students e grades para criar um array de objetos e calcule a média da nota das pessoas estudantes:
 // O index 0 do array `students` equivale ao index 0 do array `grades`
 const students = ['Pedro Henrique', 'Miguel', 'Maria Clara'];
@@ -109,9 +110,14 @@ const grades = [[9, 8, 10, 7, 5], [10, 9, 9, 10, 8], [10, 7, 10, 8, 9]];
   //  { name: 'Miguel', average: 9.2 },
   //  { name: 'Maria Clara', average: 8.8 },
 // ];
-const studentAverage = () => {
-  // retorne seu código aqui
+const studentAverage = (students, grades) => {
+  return students.map((student, i)=> ({
+    name: student,
+    average: (grades[i].reduce((acc, grade)=> acc+grade)/grades[i].length)
+  }))
 }
+
+console.log(studentAverage(students, grades));
 
 
 
