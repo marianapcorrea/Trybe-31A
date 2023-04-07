@@ -99,9 +99,11 @@ const reduceNames = () => {
  */
 // const expectedResult = 43;
 
-const averageAge = () => {
-  // retorne seu código aqui
-}
+const averageAge = () => books.reduce((acc, { author, releaseYear }) => (acc + releaseYear - author.birthYear), 0)/books.length
+
+
+// console.log(averageAge())
+
 
 /* 
 4 - Encontre o livro com o maior nome.
@@ -117,6 +119,6 @@ const averageAge = () => {
 //   releaseYear: 1991,
 // };
 
-const longestNamedBook = () => {
-  // retorne seu código aqui
-}
+const longestNamedBook = () => books.reduce((acc, item)=> acc.name.length > item.name.length ? acc : item)
+
+console.log(longestNamedBook())
