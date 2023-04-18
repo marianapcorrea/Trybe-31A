@@ -1,0 +1,44 @@
+/* Estilize as divs para que, ao passar o cursor por cima das mesmas, elas ganhem uma borda. x
+
+Faça cada div ter uma cor de fundo própria. x
+
+Estilize cada uma das tags h3 da maneira que achar melhor (cor, tamanho, estilo e família).x
+
+Faça a terceira div ser maior que as demais.x
+
+Deixe as tags ímpares h3 com o texto em itálico. x
+*/
+
+div:hover {
+    border: 3px solid magenta;
+}
+
+div:nth-child(1) {
+    background-color: cyan;
+}
+div:nth-child(2) {
+    background-color: aquamarine;
+}
+div:nth-child(3) {
+    background-color: yellow;
+    height: 5em;
+}
+div:nth-child(4) {
+    background-color: darkgreen;
+}
+div:nth-child(5) {
+    background-color: lightgreen;
+}
+
+div {
+    padding: 0.1em;
+}
+h3 {
+    text-transform: uppercase;
+    color: grey;
+    font-size: 1.2em;
+}
+
+div:nth-child(odd) h3 {
+    font-style: italic;
+}
