@@ -1,0 +1,20 @@
+{
+  "name": "api-superheroes",
+  "version": "1.0.0",
+  "description": "Projeto criado usando a  SuperHero API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "vite": "^4.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0"
+  }
+}
