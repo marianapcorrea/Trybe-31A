@@ -79,24 +79,24 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 #### Bloco 2: Introdução à React
 - [x] 2.1: _'Hello, world!' no React!_
 - [x] 2.2: _Componentes React_
-- [ ] 2.3: _Projeto - Solar System_
+- [x] 2.3: _Projeto - Solar System_
 
 #### Bloco 3: Componentes com Estado, Eventos e Formulários com React
-- [ ] 3.1: _Componentes com estado e eventos_
-- [ ] 3.2: _Formulários no React_
-- [ ] 3.3: _Projeto - Tryunfo_
+- [x] 3.1: _Componentes com estado e eventos_
+- [x] 3.2: _Formulários no React_
+- [x] 3.3: _Projeto - Tryunfo_
 
 #### Bloco 4: Ciclo de Vida de Componentes e React Router
-- [ ] 4.1: _Ciclo de vida de componentes_
-- [ ] 4.2: _React Router_
-- [ ] 4.3: _Projeto - TrybeTunes_
+- [x] 4.1: _Ciclo de vida de componentes_
+- [x] 4.2: _React Router_
+- [x] 4.3: _Projeto - TrybeTunes_
 
 #### Bloco 5: Metodologias Ágeis
-- [ ] 5.1: _Metodologias Ágeis_
-- [ ] 5.2: _Projeto - Frontend Online Store_
+- [x] 5.1: _Metodologias Ágeis_
+- [x] 5.2: _Projeto - Frontend Online Store_
 
 #### Bloco 6: Testes automatizados com React Testing Library
-- [ ] 6.1: _RTL - Primeiros passos_
+- [x] 6.1: _RTL - Primeiros passos_
 - [ ] 6.2: _RTL - Mocks e Inputs_
 - [ ] 6.3: _RTL - Testando React Router_
 - [ ] 6.4: _Projeto - Testes em React_
