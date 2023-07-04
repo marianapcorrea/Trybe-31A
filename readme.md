@@ -97,23 +97,23 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 #### Bloco 6: Testes automatizados com React Testing Library
 - [x] 6.1: _RTL - Primeiros passos_
-- [ ] 6.2: _RTL - Mocks e Inputs_
-- [ ] 6.3: _RTL - Testando React Router_
-- [ ] 6.4: _Projeto - Testes em React_
+- [x] 6.2: _RTL - Mocks e Inputs_
+- [x] 6.3: _RTL - Testando React Router_
+- [x] 6.4: _Projeto - Testes em React_
 
 #### Bloco 7: Gerenciamento de estado com Redux
-- [ ] 7.1: _Introdução ao Redux - O estado global da aplicação_
-- [ ] 7.2: _Usando o Redux no React_
-- [ ] 7.3: _Usando o Redux no React - Prática_
-- [ ] 7.4: _Usando o Redux no React - Actions Assíncronas_
-- [ ] 7.5: _Testes síncronos com React-Redux_
-- [ ] 7.6: _Projeto - Trybe Wallet_
+- [x] 7.1: _Introdução ao Redux - O estado global da aplicação_
+- [x] 7.2: _Usando o Redux no React_
+- [x] 7.3: _Usando o Redux no React - Prática_
+- [x] 7.4: _Usando o Redux no React - Actions Assíncronas_
+- [x] 7.5: _Testes síncronos com React-Redux_
+- [x] 7.6: _Projeto - Trybe Wallet_
 
 #### Bloco 8: Projeto Jogo de Trivia
-- [ ] 8.1: _Projeto - Jogo de Trivia_
+- [x] 8.1: _Projeto - Jogo de Trivia_
 
 #### Bloco 9: Context API e React Hooks
-- [ ] 9.1: _React Hooks - useState e useEffect_
+- [x] 9.1: _React Hooks - useState e useEffect_
 - [ ] 9.2: _Context API_
 - [ ] 9.3: _Custom Hooks_
 - [ ] 9.4: _Projeto - StarWars Datatable com Context API e Hooks_
