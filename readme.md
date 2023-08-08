@@ -114,17 +114,17 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 #### Bloco 9: Context API e React Hooks
 - [x] 9.1: _React Hooks - useState e useEffect_
-- [ ] 9.2: _Context API_
-- [ ] 9.3: _Custom Hooks_
-- [ ] 9.4: _Projeto - StarWars Datatable com Context API e Hooks_
+- [x] 9.2: _Context API_
+- [x] 9.3: _Custom Hooks_
+- [x] 9.4: _Projeto - StarWars Datatable com Context API e Hooks_
 
 #### Bloco 10: Projeto App de Receitas
-- [ ] 10.1: _Projeto - App de Receitas_
+- [x] 10.1: _Projeto - App de Receitas_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
 #### Bloco 1: Docker: Utilizando Containers - Docker
-- [ ] 1.1: _Utilizando Containers - Docker_
+- [x] 1.1: _Utilizando Containers - Docker_
 - [ ] 1.2: _Manipulando Imagens no Docker_
 - [ ] 1.3: _Orquestrando Cointainers com Docker Compose_
 - [ ] 1.41: _Docker Todo-List_
@@ -152,9 +152,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
   
 #### Bloco 5: Arquitetura de Software: Modal, Service e Controller
 - [ ] 5.1:  _Arquitetura de Software - Camada de Model_
-- [ ] 5.2:  _Arquitetura de Software - Camada de Service_
-- [ ] 5.3:  _Arquitetura de Software - Camada de Controller_
-- [ ] 5.4:  _Projeto - Store Manager_
+- [ ] 5.2:  _Arquitetura de Software - Refatorando Camada de Model_
+- [ ] 5.3:  _Arquitetura de Software - Camada de Service_
+- [ ] 5.4:  _Arquitetura de Software - Refatorando Camada de Service_
+- [ ] 5.5:  _Arquitetura de Software - Refatorando Camada de Controller_
+- [ ] 5.6:  _Projeto - Store Manager_
 
 #### Bloco 6: NodeJs: ORM e Autenticação
 - [ ] 6.1:  _ORM - Interface da aplicação com o banco de dados_
@@ -167,10 +169,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 7.1:  _InfraEstrutura: Deploy com Railway_
 
 #### Bloco 8: Introdução ao TypeScript
-- [ ] 8.1:  _Introdução ao TypeScript_
-- [ ] 8.2:  _Tipagem Estática e Generics_
-- [ ] 8.3:  _Express com TypeScript_
-- [ ] 8.4:  _Projeto - Trybesmith_
+- [ ] 8.1:  _Aprendendo TypeScript_
+- [ ] 8.2:  _Introdução ao Generics_
+- [ ] 8.3:  _API REST com Express, JWT, Sequelize e TypeScript_
+- [ ] 8.4:  _Testando Aplicações com TypeScript_
+- [ ] 8.5:  _Projeto - Trybesmith_
   
   #### Bloco 9: Programação orientada a Objetos (POO) e SOLID
 - [ ] 9.1:  _Introdução à Orientação a Objetos_
@@ -181,70 +184,29 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 9.6:  _Projeto - Trybers and Dragons_
   
   #### Bloco 10: TFC - Trybe Futebol Clube
-- [ ] 10.1:  _Projeto - TFC - Trybe Futebol Clube_
-
-#### Bloco 11: Introdução ao MongoDB
-- [ ] 11.1:  _MongoDB - Introdução_
-- [ ] 11.2:  _Filter Operators_
-- [ ] 11.3:  _Operadores de Consulta_
-- [ ] 11.4:  _Updates Simples_
-- [ ] 11.5:  _Updates Complexos - Arrays_
-- [ ] 11.6:  _Projeto - Commerce_
-
-#### Bloco 12: APIs OO e NoSQL
-- [ ] 12.1:  _APIs orientadas a objetos e NoSQL: POO e ODMs_
-- [ ] 12.2:  _APIs orientadas a objetos e NoSQL: Herança e Abstração_
-- [ ] 12.3:  _Projeto - Car Shop_
-
-#### Bloco 29: Projeto - App Delivery
-- [ ] 29.1:  _Projeto - App Delivery_
+- [ ] 10.1:  _Express com Classes_
+- [ ] 10.2:  _Projeto - TFC - Trybe Futebol Clube_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
 #### Bloco 1: Introdução à Python
 - [ ] 1.1: _Aprendendo Python_
-- [ ] 1.2: _Entrada e Saída de dados_
-- [ ] 1.4: _Testes_
-- [ ] 1.5: _Projeto - Job Insights_
+- [ ] 1.2: _Entrada e Saída de dados com Testes_
 
-#### Bloco 2: Padrões de Projeto
-- [ ] 2.1: _POO em Python_
-- [ ] 2.2: _Padrões - Iterator, Adaptor, Strategy_
-- [ ] 2.3: _Padrões - Decorator, Observer, Factory_
-- [ ] 2.4: _Projeto - Relatórios de Estoque_
+#### Bloco 2: Algoritmos 
+- [ ] 2.1: _Complexidade de Algoritmos_
+- [ ] 2.2: _Recursividade e Estratégias para solução de problemas_
+- [ ] 2.3: _Algoritmos de ordenação e busca_
+- [ ] 2.4: _Projeto - Algoritmos_
 
-#### Bloco 3: Raspagem de Dados
-- [ ] 3.1: _Raspagem de Dados_
-- [ ] 3.2: _Outras Ferramentas de Raspagem de Dados_
-- [ ] 3.3: _Dia de Atividades - Crawlers + POO_
-- [ ] 3.4: _Projeto - Tech news_
+#### Bloco 3: Estrutura de Dados I: Listas Lineares
+- [ ] 3.1: _P.O.O em Python_
+- [ ] 3.3: _Arrays_
+- [ ] 3.4: _Nó e Listas Encadeadas_
+- [ ] 3.5: _Pilhas e Filas_
+- [ ] 3.6: _Projeto - TING - Trybe Is Not Google_
 
-#### Bloco 4: Algoritmos 
-- [ ] 4.1: _Complexidade de Algoritmos_
-- [ ] 4.2: _Recursividade e Estratégias para solução de problemas_
-- [ ] 4.3: _Algoritmos de ordenação e busca_
-- [ ] 4.4: _Projeto - Algoritmos_
-
-
-#### Bloco 33: Arquitetura de Computadores e Redes
-- [ ] 33.1: _Introdução - Ciência da Computação_
-- [ ] 33.2: _Arquitetura de Computadores_
-- [ ] 33.3: _Arquitetura de redes_
-- [ ] 33.4: _Redes de computadores, ferramentas e segurança_
-- [ ] 33.5: _Projeto - Explorando os protocolos_
-
-
-
-#### Bloco 5: Estrutura de Dados I: Arrays, Pilhas, Filas e Listas
-- [ ] 5.1: _Arquitetura de Computadores_
-- [ ] 5.2: _Arquitetura de Redes_
-- [ ] 5.3: _Arrays_
-- [ ] 5.4: _Nó e Listas Encadeadas_
-- [ ] 5.5: _Pilhas e Filas_
-- [ ] 5.6: _Projeto - TING - Trybe Is Not Google_
-
-#### Bloco 6: Estrutura de Dados II: Hashmaps e Set
-- [ ] 6.1: _Hashmap e Dict_
-- [ ] 6.2: _Set_
-- [ ] 6.3: _Pandas_
-- [ ] 6.4: _Projeto - Restaurant Orders_
+#### Bloco 4: Estrutura de Dados II: Hashmaps e Set
+- [ ] 4.1: _Hashmap e Dict_
+- [ ] 4.2: _Set_
+- [ ] 4.4: _Projeto - Restaurant Orders_
