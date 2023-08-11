@@ -125,9 +125,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 #### Bloco 1: Docker: Utilizando Containers - Docker
 - [x] 1.1: _Utilizando Containers - Docker_
-- [ ] 1.2: _Manipulando Imagens no Docker_
-- [ ] 1.3: _Orquestrando Cointainers com Docker Compose_
-- [ ] 1.41: _Docker Todo-List_
+- [X] 1.2: _Manipulando Imagens no Docker_
+- [X] 1.3: _Orquestrando Cointainers com Docker Compose_
+- [X] 1.41: _Docker Todo-List_
 
 #### Bloco 2: Introdução à SQL
 - [ ] 2.1: _Banco de dados SQL_
