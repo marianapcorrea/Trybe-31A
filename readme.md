@@ -132,12 +132,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 #### Bloco 2: Introdução à SQL
 - [x] 2.1: _Banco de dados SQL_
 - [X] 2.2: _Encontrando dados em um banco de dados_
-- [ ] 2.3: _Filtrando dados de forma específica_
-- [ ] 2.4: _Manipulando tabelas_
-- [ ] 2.5: _Projeto - All For One_
+- [X] 2.3: _Filtrando dados de forma específica_
+- [X] 2.4: _Manipulando tabelas_
+- [X] 2.5: _Projeto - All For One_
 
 #### Bloco 3: Funções SQL, Joins e Normalização
-- [ ] 3.1:  _Funções mais usadas no SQL_
+- [X] 3.1:  _Funções mais usadas no SQL_
 - [ ] 3.2:  _Descomplicando JOINs_
 - [ ] 3.3:  _Transformando ideias em um modelo de banco de dados_
 - [ ] 3.4:  _Aula ao vivo + Projeto - One For All_
