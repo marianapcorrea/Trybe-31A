@@ -139,11 +139,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 #### Bloco 3: Funções SQL, Joins e Normalização
 - [X] 3.1:  _Funções mais usadas no SQL_
 - [x] 3.2:  _Descomplicando JOINs_
-- [ ] 3.3:  _Transformando ideias em um modelo de banco de dados_
-- [ ] 3.4:  _Aula ao vivo + Projeto - One For All_
+- [x] 3.3:  _Transformando ideias em um modelo de banco de dados_
+- [x] 3.4:  _Aula ao vivo + Projeto - One For All_
 
 #### Bloco 4: Introdução ao desenvolvimento Web com NodeJS
-- [ ] 4.1:  _NodeJS: Runtime Assíncrono_
+- [x] 4.1:  _NodeJS: Runtime Assíncrono_
 - [ ] 4.1:  _NodeJS: API REST com Express_
 - [ ] 4.2:  _NodeJS: Testes de Integração_
 - [ ] 4.3:  _NodeJS: Express e Middlewares_
