@@ -146,12 +146,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 4.1:  _NodeJS: Runtime Assíncrono_
 - [X] 4.1:  _NodeJS: API REST com Express_
 - [ ] 4.2:  _NodeJS: Testes de Integração_
-- [ ] 4.3:  _NodeJS: Express e Middlewares_
+- [X] 4.3:  _NodeJS: Express e Middlewares_
 - [ ] 4.4:  _NodeJS: Express e MySQL_
-- [ ] 4.5:  _Projeto - Talker manager_
+- [X] 4.5:  _Projeto - Talker manager_
   
 #### Bloco 5: Arquitetura de Software: Modal, Service e Controller
-- [ ] 5.1:  _Arquitetura de Software - Camada de Model_
+- [X] 5.1:  _Arquitetura de Software - Camada de Model_
 - [ ] 5.2:  _Arquitetura de Software - Refatorando Camada de Model_
 - [ ] 5.3:  _Arquitetura de Software - Camada de Service_
 - [ ] 5.4:  _Arquitetura de Software - Refatorando Camada de Service_
