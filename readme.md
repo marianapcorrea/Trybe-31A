@@ -159,33 +159,41 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 5.6:  _Projeto - Store Manager_
 
 #### Bloco 6: NodeJs: ORM e Autenticação
+<<<<<<< Updated upstream
 - [ ] 6.1:  _ORM - Interface da aplicação com o banco de dados_
 - [ ] 6.2:  _ORM - Associations 1:1 e 1:N_
 - [ ] 6.3:  _ORM - Associations N:N e Transactions_
 - [ ] 6.4:  _JWT - (JSON Web Token)_
 - [ ] 6.5:  _Projeto - API de Blogs_
+=======
+- [X] 6.1:  _ORM - Interface da aplicação com o banco de dados_
+- [X] 6.2:  _ORM - Associations 1:1 e 1:N_
+- [X] 6.3:  _ORM - Associations N:N e Transactions_
+- [X] 6.4:  _JWT - (JSON Web Token)_
+- [X] 6.5:  _Projeto - API de Blogs_
+>>>>>>> Stashed changes
 
 #### Bloco 7: MasterClass: Implantação de Aplicações na Nuvem
-- [ ] 7.1:  _InfraEstrutura: Deploy com Railway_
+- [X] 7.1:  _InfraEstrutura: Deploy com Railway_
 
 #### Bloco 8: Introdução ao TypeScript
-- [ ] 8.1:  _Aprendendo TypeScript_
-- [ ] 8.2:  _Introdução ao Generics_
-- [ ] 8.3:  _API REST com Express, JWT, Sequelize e TypeScript_
-- [ ] 8.4:  _Testando Aplicações com TypeScript_
-- [ ] 8.5:  _Projeto - Trybesmith_
+- [X] 8.1:  _Aprendendo TypeScript_
+- [X] 8.2:  _Introdução ao Generics_
+- [X] 8.3:  _API REST com Express, JWT, Sequelize e TypeScript_
+- [X] 8.4:  _Testando Aplicações com TypeScript_
+- [X] 8.5:  _Projeto - Trybesmith_
   
   #### Bloco 9: Programação orientada a Objetos (POO) e SOLID
-- [ ] 9.1:  _Introdução à Orientação a Objetos_
-- [ ] 9.2:  _Herança e Composição_
-- [ ] 9.3:  _Polimorfismo_
-- [ ] 9.4:  _SOLID - Introdução e princípios S, O e D_
-- [ ] 9.5:  _SOLID - Princípios L e I_
-- [ ] 9.6:  _Projeto - Trybers and Dragons_
+- [X] 9.1:  _Introdução à Orientação a Objetos_
+- [X] 9.2:  _Herança e Composição_
+- [X] 9.3:  _Polimorfismo_
+- [X] 9.4:  _SOLID - Introdução e princípios S, O e D_
+- [X] 9.5:  _SOLID - Princípios L e I_
+- [X] 9.6:  _Projeto - Trybers and Dragons_
   
   #### Bloco 10: TFC - Trybe Futebol Clube
-- [ ] 10.1:  _Express com Classes_
-- [ ] 10.2:  _Projeto - TFC - Trybe Futebol Clube_
+- [X] 10.1:  _Express com Classes_
+- [X] 10.2:  _Projeto - TFC - Trybe Futebol Clube_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
